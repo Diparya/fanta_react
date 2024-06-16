@@ -1,0 +1,14 @@
+/* global.css or a CSS module */
+@keyframes custom-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .animate-custom {
+    animation: custom-animation 5s infinite linear;
+  }
+  
